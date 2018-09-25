@@ -1,0 +1,31 @@
+.ttt, h1{
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 5px solid black;
+}
+
+ul li {
+  padding-top: 10px;
+  font-family: 'Arial Bold', sans-serif;
+  font-size: 45px;
+  font-weight: 700px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  background-color: gray;
+  border: 5px solid black;
+}
+
+ul li:hover {
+  background-color: yellow;
+}
